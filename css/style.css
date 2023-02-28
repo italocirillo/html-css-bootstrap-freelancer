@@ -27,6 +27,9 @@ ul{
     padding: 0.5em;
     vertical-align: sub;
 }
+.font-size-05-ms{
+    font-size: 0.5rem;
+}
 
 /* TIPOGRAFIA */
 .titolo-principale{
@@ -70,6 +73,7 @@ ul{
     display: flex;
     justify-content: flex-end;
     gap: 1em;
+    cursor: pointer;
 }
 .contenitore-a-scomparsa{
     display: none;
@@ -114,6 +118,20 @@ ul{
     padding-top: 1em;
     padding-bottom: 1em;
 }
+.icone-footer{
+    color: white;
+    font-size: 2rem;
+}
+.cerchio{
+    height: 50px;
+    width: 50px;
+    border: 0.5px solid white;
+    padding: 2em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* RESPONSIVE */
@@ -142,12 +160,4 @@ ul{
         max-width: 1000px;
         margin: 0 auto;
     }
-}
-/* DEBUG */
-.border-debug{
-    height: 100%;
-    border: 2px solid red;
-}
-.card-border-debug{
-    border: 2px solid cadetblue;
 }
